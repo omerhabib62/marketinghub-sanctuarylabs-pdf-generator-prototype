@@ -7,11 +7,12 @@ This prototype provides a minimal implementation of a PDF generator with a prede
 Set up the project locally, follow these steps:
 
 - Clone the Repository:
-     Run commands including:
+Run commands including:
         
      ```git clone <repository-url>```<br />
     ``` cd pdf-generator-app ```
-- Then after cloning the PDF generator, run the following commands
+- Install Dependencies:  
+Then after cloning the PDF generator, run the following commands
 
     ```npm install --save```<br />
 
