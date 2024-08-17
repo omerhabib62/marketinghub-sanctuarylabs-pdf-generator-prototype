@@ -1,8 +1,18 @@
-# React + Vite
+# PDF Generator prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This prototype provides a minimal implementation of a PDF generator with a predefined template. It allows the user to fill out a form, add personal details, and upload a logo, which is then used to generate a PDF.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Set up the project locally, follow these steps:
+
+- Clone the Repository:
+     Run commands including:
+        
+     ```git clone <repository-url>```<br />
+    ``` cd pdf-generator-app ```
+- Then after cloning the PDF generator, run the following commands
+
+    ```npm install --save```<br />
+
+    ```npm run dev```
