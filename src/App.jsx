@@ -3,7 +3,7 @@ import GeneratedTemplate from './components/GeneratedTemplate'; // Ensure the pa
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{textAlign: "center"}}>
       <h1>PDF Template Generator</h1>
       <GeneratedTemplate />
     </div>

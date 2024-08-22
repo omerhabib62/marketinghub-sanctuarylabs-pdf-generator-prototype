@@ -23,7 +23,7 @@ const TemplateForm = ({ onGenerateTemplate }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div >
         <label>Title:</label>
         <input
           type="text"
@@ -61,7 +61,8 @@ const TemplateForm = ({ onGenerateTemplate }) => {
           required
         />
       </div>
-      <button type="submit">Save Template</button>
+      <button type="submit">Preview</button>
+      <button type="button" onClick={() => {alert('Saved Template for future use')}}>Save</button>
     </form>
   );
 };
